@@ -7,6 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, roc_auc_score
 from xgboost import XGBClassifier
 import shap
+import from sklearn.linear_model import LogisticRegression
 
 # --- 1. Data Loading ---
 # Dataset: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
